@@ -1,5 +1,28 @@
 .App {
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.App-nav {
+  background-color: #ef5350; 
+  padding: 10px;
+}
+
+.App-nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.App-nav a:hover {
+  text-decoration: underline;
+}
+
+.App-main {
+  padding: 20px;
 }
 
 .App-logo {
