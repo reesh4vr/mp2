@@ -1,14 +1,17 @@
-import React from 'react';
-// import logo from './logo.svg';
+import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import ListPage from "./pages/ListPage";
 import GalleryPage from "./pages/GalleryPage";
 import DetailPage from "./pages/DetailPage";
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
+      <header className="App-header">
+        <h1>Pokédex</h1>
+      </header>
+
       <nav className="App-nav">
         <Link to="/">List</Link>
         <Link to="/gallery">Gallery</Link>

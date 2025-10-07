@@ -1,0 +1,33 @@
+.detail-page {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .nav-buttons {
+    margin-top: 1rem;
+  }
+  
+  button {
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: #ef5350;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d32f2f;
+  }
+  
+  button:disabled {
+    background-color: #bdbdbd;
+    cursor: not-allowed;
+  }
+  
